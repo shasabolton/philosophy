@@ -1,1 +1,30 @@
-
+Some people claim that what exists, 
+is a vector in Configuration space. 
+What we experience, is a current state,
+an operator and a predicted probability
+distribution of the next state. 
+Or we experience a current state, 
+a memory of a previous state 
+and a memory of an operator that
+predicted how likely it was that we got
+the current state or any other. 
+We see, state, prediction and result all
+in one instant of experience, along
+with any error valuation of the
+prediction. 
+In reinforcment learning, the agent
+sees the state (which can be a rich
+context of history), it applies its
+operator and outputs a probability
+distribution of the next action to take
+(or token to write). This seems very 
+analogous to quantum measurement.
+But perhaps the state vector would
+need to be in the embedding space 
+and the output would need to be a 
+probability distribution over
+embedding space. Does a transformer map 
+an embedded vector directly to a token
+probability distribution, or is there
+an interme strep that predicts a next
+embedding vector first.
