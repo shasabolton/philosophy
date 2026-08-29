@@ -19,12 +19,14 @@ operator and outputs a probability
 distribution of the next action to take
 (or token to write). This seems very 
 analogous to quantum measurement.
-But perhaps the state vector would
-need to be in the embedding space 
-and the output would need to be a 
+The state vector is in
+the embedding space. 
+The output is not a 
 probability distribution over
-embedding space. Does a transformer map 
-an embedded vector directly to a token
-probability distribution, or is there
-an interme strep that predicts a next
-embedding vector first.
+embedding space, but over
+token space.
+perhaps this is like an
+individual measurment.
+It defines the embedding
+space distribution.
+
