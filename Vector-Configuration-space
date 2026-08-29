@@ -29,4 +29,20 @@ perhaps this is like an
 individual measurment.
 It defines the embedding
 space distribution.
+The imbedding vector is synonymously with.
+the current statevector with 100% probability.
+A definite measurement. The process to get 
+the
+next token is like the operator or quantum 
+circuit.
+The next token probability distribution is
+synonymous with the wave function.
+If we appended each token separately and 
+found the new embedding, we would have
+a probability distribution over 
+state space.
+If the embedding and predictive function is 
+deterministic in an LLM should we not expect
+the same unique output for a given input.
+
 
